@@ -9,3 +9,7 @@ test('<Dashboard /> snapshot', () => {
     const wrapper = rtl.render(<Dashboard />)
     expect(wrapper.asFragment()).toMatchSnapshot();
 })
+
+test('Dash renders Controls and Display', () => {
+    
+})
